@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <tcustomerattributes_index>
+        <reference name="content">
+            <block type="tcustomerattributes/index"  name="tcustomerattributes"  as="tcustomerattributes" template="tcustomerattributes/index.phtml" />
+        </reference>
+    </tcustomerattributes_index>
+    
+    
+    <tcustomerattributes_category>
+        <reference name="content">
+            <block type="tcustomerattributes/tcustomerattributesgrid"  name="tcustomerattributesgrid"  as="tcustomerattributesgrid" template="tcustomerattributes/grid.phtml" />
+        </reference>
+    </tcustomerattributes_category>
+    <tcustomerattributes_customer>
+        <reference name="content">
+            <block type="tcustomerattributes/tcustomerattributesgrid"  name="tcustomerattributesgrid"  as="tcustomerattributesgrid" template="tcustomerattributes/grid.phtml" />
+        </reference>
+    </tcustomerattributes_customer>
+    <tcustomerattributes_address>
+        <reference name="content">
+            <block type="tcustomerattributes/tcustomerattributesgrid"  name="tcustomerattributesgrid"  as="tcustomerattributesgrid" template="tcustomerattributes/grid.phtml" />
+        </reference>
+    </tcustomerattributes_address>
+    
+    <tcustomerattributes_edit>
+        <reference name="content">
+            <block type="tcustomerattributes/tcustomerattributesedit"  name="tcustomerattributesedit"  as="tcustomerattributesedit" template="tcustomerattributes/options.phtml" />
+        </reference>
+    </tcustomerattributes_edit>
+</layout>
