@@ -9,9 +9,9 @@
  -->
 <config>
     <modules>
-        <Technooze_Tcatalog>
+        <Technooze_Tcustomerattributes>
             <active>true</active>
             <codePool>community</codePool>
-        </Technooze_Tcatalog>
+        </Technooze_Tcustomerattributes>
     </modules>
 </config> 
