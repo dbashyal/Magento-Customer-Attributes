@@ -52,10 +52,14 @@
                 </all>
                 <admin>
                     <children>
-                        <Technooze_Tcustomerattributes>
-                            <title>Customer Attribute Module</title>
-                            <sort_order>10</sort_order>
-                        </Technooze_Tcustomerattributes>
+                        <customer>
+                            <children>
+                                <Technooze_Tcustomerattributes>
+                                    <title>Customer Attribute Manager</title>
+                                    <sort_order>50</sort_order>
+                                </Technooze_Tcustomerattributes>
+                            </children>
+                        </customer>
                     </children>                   
                 </admin>
             </resources>
