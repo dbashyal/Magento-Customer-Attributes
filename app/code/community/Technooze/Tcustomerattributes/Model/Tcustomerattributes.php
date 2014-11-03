@@ -49,4 +49,3 @@ class Technooze_Tcustomerattributes_Model_Tcustomerattributes extends Mage_Eav_M
         return parent::_beforeSave();
     }
 }
-?>
