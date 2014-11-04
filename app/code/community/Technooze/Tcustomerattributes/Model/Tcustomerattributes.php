@@ -1,6 +1,6 @@
 <?php
 
-class Technooze_Tcustomerattributes_Model_CustomerAttribute extends Mage_Eav_Model_Entity_Attribute
+class Technooze_Tcustomerattributes_Model_Tcustomerattributes extends Mage_Eav_Model_Entity_Attribute
 {
     public function _construct()
     {
@@ -49,4 +49,3 @@ class Technooze_Tcustomerattributes_Model_CustomerAttribute extends Mage_Eav_Mod
         return parent::_beforeSave();
     }
 }
-?>
